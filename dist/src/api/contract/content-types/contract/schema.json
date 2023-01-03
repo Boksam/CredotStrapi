@@ -1,0 +1,37 @@
+{
+    "kind": "collectionType",
+    "collectionName": "contracts",
+    "info": {
+        "singularName": "contract",
+        "pluralName": "contracts",
+        "displayName": "Contract",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "email": {
+            "type": "string"
+        },
+        "sign": {
+            "type": "text"
+        },
+        "contractDate": {
+            "type": "string"
+        },
+        "deadline": {
+            "type": "string"
+        },
+        "ammount": {
+            "type": "string"
+        },
+        "commerce": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string"
+        }
+    }
+}

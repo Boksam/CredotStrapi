@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coupang_contracts",
+  "info": {
+    "singularName": "coupang-contract",
+    "pluralName": "coupang-contracts",
+    "displayName": "Coupang Contract"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "sign": {
+      "type": "string"
+    },
+    "commerce": {
+      "type": "string"
+    },
+    "ammount": {
+      "type": "string"
+    },
+    "contractDate": {
+      "type": "string"
+    },
+    "deadline": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "updateDate": {
+      "type": "string"
+    }
+  }
+}

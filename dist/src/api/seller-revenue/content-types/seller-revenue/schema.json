@@ -1,0 +1,30 @@
+{
+    "kind": "collectionType",
+    "collectionName": "seller_revenues",
+    "info": {
+        "singularName": "seller-revenue",
+        "pluralName": "seller-revenues",
+        "displayName": "SellerRevenue"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "month": {
+            "type": "string"
+        },
+        "revenue": {
+            "type": "biginteger"
+        },
+        "totalNum": {
+            "type": "integer"
+        },
+        "numComment": {
+            "type": "integer"
+        }
+    }
+}

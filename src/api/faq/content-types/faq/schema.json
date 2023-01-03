@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "Faq",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contents": {
+      "type": "text"
+    },
+    "contractDate": {
+      "type": "string"
+    },
+    "deadline": {
+      "type": "string"
+    },
+    "ammount": {
+      "type": "string"
+    },
+    "commerce": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "no": {
+      "type": "integer"
+    }
+  }
+}

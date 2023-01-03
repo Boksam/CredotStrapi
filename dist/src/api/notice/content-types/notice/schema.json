@@ -1,0 +1,25 @@
+{
+    "kind": "collectionType",
+    "collectionName": "notices",
+    "info": {
+        "singularName": "notice",
+        "pluralName": "notices",
+        "displayName": "Notice",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "contents": {
+            "type": "text"
+        },
+        "date": {
+            "type": "string"
+        }
+    }
+}
